@@ -1,0 +1,30 @@
+
+#hotel_reserve_box{
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 40px 50px;
+    background-color: #64CCC5;
+    box-shadow: 3px 5px 10px #64CCC5;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+label{
+    font-size:larger;   
+}
+
+body, html {
+    height: 100%;
+  }
+  
+.bg {
+    /* The image used */
+    background-image: url("beach.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

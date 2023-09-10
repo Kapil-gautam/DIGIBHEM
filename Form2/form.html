@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <script src="index1.js"></script>
+    <title>Registration form</title>
+</head>
+<body>
+    <section>
+        <div class="bg">
+        <div id="hotel_reserve_box">
+            <h1>Registration Form</h1>
+            <form action="">
+                <label for="name">Customer Name:</label><br>
+                <input type="text" id="Name"  name="" placeholder="please enter your name" required><br><br>
+
+                <label for="date">Check-in Date:</label><br>
+                <input type="date" id="Date"  name="" placeholder="Check-in date" required><br><br>
+
+                <label for="day">Total No of Days:</label><br>
+                <input type="number" id="Day"  placeholder="Total No of Days" required><br><br>
+
+                <label for="person">Total No of Person:</label><br>
+                <input type="number" id="Person"  placeholder="No of person" required><br><br>
+
+                <label for="room">Room Type:</label><br>
+                <input class="room_type" type="radio" name="room"  value="2500" >Delux Room
+                <input class="room_type" type="radio" name="room" value="4000" >Suite Room
+
+                <br><br>
+
+                <label for="Amenities">Amenities:</label><br>
+                <input class="animation" type="checkbox" name="Amenities"  value="1000">AC
+                <input class="animation" type="checkbox" name="Amenities"  value="300">Locker
+
+                <br><br>
+
+                <label for="payment">Advance payment:</label><br>
+                <input type="number" name="" id="Payment" required><br><br>
+
+         
+                <div id="taooooo" style="display:none"><label for="total">Total Amount :</label><p id="total_amount"></p></div> 
+                <br>
+                <button class="button" value="Register" onclick="validation()">Register</button>
+        
+               <br><br>
+            </form>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
